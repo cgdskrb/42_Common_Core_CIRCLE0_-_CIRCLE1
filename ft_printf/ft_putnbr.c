@@ -6,7 +6,7 @@
 /*   By: cakaraba <cakaraba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 22:49:47 by cakaraba          #+#    #+#             */
-/*   Updated: 2024/11/10 23:21:34 by cakaraba         ###   ########.fr       */
+/*   Updated: 2024/11/11 01:16:50 by cakaraba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,6 @@ int	ft_putnbr(int n)
 		len += ft_putnbr(nb % 10);
 	}
 	else
-		nb += ft_putchar(nb + 48);
+		len += ft_putchar(nb + 48);
 	return (len);
 }
