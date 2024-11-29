@@ -6,7 +6,7 @@
 /*   By: cakaraba <cakaraba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 22:48:43 by cakaraba          #+#    #+#             */
-/*   Updated: 2024/11/10 22:48:54 by cakaraba         ###   ########.fr       */
+/*   Updated: 2024/11/24 03:07:13 by cakaraba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ int	ft_hexconversion(unsigned long int args, int up_lowcase)
 		base = "0123456789ABCDEF";
 	if (args >= 16)
 		len += ft_hexconversion(args / 16, up_lowcase);
-	len += ft_putchar(base[args % 16]);
+	if (ft_putchar(base[args % 16]) == -1)
+		return (-1);
+	len += 1;
 	return (len);
 }

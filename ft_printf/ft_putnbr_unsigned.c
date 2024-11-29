@@ -6,7 +6,7 @@
 /*   By: cakaraba <cakaraba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 22:49:57 by cakaraba          #+#    #+#             */
-/*   Updated: 2024/11/10 23:22:16 by cakaraba         ###   ########.fr       */
+/*   Updated: 2024/11/24 03:00:32 by cakaraba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,10 @@ int	ft_putnbr_unsigned(unsigned int n)
 		len += ft_putnbr_unsigned(n % 10);
 	}
 	else if (n < 10)
-		len += ft_putchar(n + 48);
+	{
+		if (ft_putchar(n + 48) == -1)
+			return (-1);
+		len += 1;
+	}
 	return (len);
 }

@@ -6,15 +6,15 @@
 /*   By: cakaraba <cakaraba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/10 22:49:38 by cakaraba          #+#    #+#             */
-/*   Updated: 2024/11/10 23:46:02 by cakaraba         ###   ########.fr       */
+/*   Updated: 2024/11/24 02:58:27 by cakaraba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_putchar(int d)
+int	ft_putchar(int i)
 {
-	if (write(1, &d, 1) == -1)
+	if (write(1, &i, 1) == -1)
 		return (-1);
 	return (1);
 }
