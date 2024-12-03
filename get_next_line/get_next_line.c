@@ -87,8 +87,8 @@ char    *get_next_line(int fd)
     static char *str
     char    *tmp
 
-    if (fd < 0 || BUFFER_SIZE <= 0)
-        return (0);
+    if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, 0, 0) < 0)
+        return (NULL);
     str = read_str(fd, str);
     if (!tmp)
         return (NULL);
