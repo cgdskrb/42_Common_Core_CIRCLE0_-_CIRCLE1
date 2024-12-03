@@ -5,7 +5,7 @@ char    *get_rem(char *str)
 {
     int i;
     int j;
-    char    tmp;
+    char    *current;
 
     i = 0;
     j = 0;
@@ -15,47 +15,47 @@ char    *get_rem(char *str)
     }
     if (!str[i])
     {
-        free(tmp);
+        free(current);
         return (NULL);
     }
-    tmp = malloc(ft_strlen(str) - i + 1);
-    if (!tmp)
+    current = malloc(ft_strlen(str) - i + 1);
+    if (!current)
         return (NULL);
     i += 1;
     j = 0;
     while (str[i])
-        tmp[j++] = str[i++];
-    tmp[j] = '\0';
+        current[j++] = str[i++];
+    current[j] = '\0';
     free(str);
-    return (tmp);
+    return (current);
 }
 
-char    *fill_line(char *str)
+char    *extract(char *str)
 {
     int i;
-    char    *tmp;
+    char    *line;
 
     i = 0;
     if (!str[i])
         return(NULL);
-    while (str[i] && tmp[i] != '\n')
+    while (str[i] && str[i] != '\n')
         i++;
-    tmp = malloc(i + 2);
-    if (!tmp)
+    line = malloc(i + 2);
+    if (!line)
         return (NULL);
     i = 0;
     while (str[i] && str[i] != '\n')
     {
-        tmp[i] = str[i];
+        line[i] = str[i];
         i++;
     }
-    if (tmp[i] == '\n')
+    if (line[i] == '\n')
     {
-        tmp[i] = str[i];
+        line[i] = str[i];
         i++;
     }
-    tmp[i] = '\0';
-    return (tmp);
+    line[i] = '\0';
+    return (line);
 }
 
 char    *read_str(int fd, char *str)
@@ -64,21 +64,21 @@ char    *read_str(int fd, char *str)
     char    *tmp;
 
     i = 1;
-    tmp = malloc(BUFFER_SIZE + 1);
-    if (!tmp)
+    buf = malloc(BUFFER_SIZE + 1);
+    if (!buf)
         return (NULL);
     while (!ft_strchr(str) && i != 0)
     {
-        i = read(fd, tmp, BUFFER_SIZE);
+        i = read(fd, buf, BUFFER_SIZE);
         if (i == -1)
         {
-            free(tmp);
+            free(buf);
             return (NULL);
         }
-        tmp[i] = '\0';
-        str = ft_strjoin(str, tmp);
+        buf[i] = '\0';
+        str = ft_strjoin(str, buf);
     }   
-    free(tmp);
+    free(buf);
     return (str);
 }
 
@@ -92,7 +92,7 @@ char    *get_next_line(int fd)
     str = read_str(fd, str);
     if (!tmp)
         return (NULL);
-    tmp = fill_line(str);
+    tmp = extract(str);
     str = get_rem(str);
     return (tmp);
 }
