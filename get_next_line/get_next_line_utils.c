@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: cakaraba <cakaraba@student.42kocaeli.      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/12/05 19:40:41 by cakaraba          #+#    #+#             */
+/*   Updated: 2024/12/05 19:59:19 by cakaraba         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
 
 size_t	ft_strlen(char *str)
@@ -8,7 +20,9 @@ size_t	ft_strlen(char *str)
 	if (!str)
 		return (0);
 	while (str[i] != '\0')
+	{
 		i++;
+	}
 	return (i);
 }
 
@@ -30,8 +44,8 @@ int	ft_strchr_nl(char *str)
 
 char	*ft_strjoin(char *s1, char *s2)
 {
-	long	i;
-	long	j;
+	int		i;
+	int		j;
 	char	*str;
 
 	if (!s1)
