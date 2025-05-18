@@ -98,7 +98,7 @@ make
 
 -enable FTP 
 
--schedule tasks with cron
+-schedule tasks with cron etc.
 ```
 git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
 ```
