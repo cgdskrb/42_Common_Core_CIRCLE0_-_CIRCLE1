@@ -84,7 +84,7 @@ make
   <img src="https://i.imgflip.com/9ufgun.jpg" width="400" alt="zz">
 </p>
 
-**goal:** learn basic Linux administration on Ubuntu.
+**goal:** learn basic Linux administration on Debian or Rocky.
 
 **tasks:**
 
