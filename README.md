@@ -1,4 +1,6 @@
-📁 1. libft (Circle0)
+# ECOLE 42 COMMON CORE CIRCLE0 - CIRCLE1 PROJECTS
+
+## 📁 1. libft (Circle0)
 
 Amaç: Standart C kütüphanesinin temel fonksiyonlarını yeniden implemente etmek.
 
@@ -20,7 +22,7 @@ make ile libft.a statik kütüphanesi oluşturulur.
 
 Diğer projeler bu kütüphaneyi include edip linkler.
 
-📁 2. get_next_line (Circle1)
+## 📁 2. get_next_line (Circle1)
 
 Amaç: Dosya veya standart girişi satır satır okumak.
 
@@ -38,7 +40,7 @@ Birden çok fd için ayrı buffer tutulur.
 
 Test: Örnek .txt dosyalarıyla çalışan örnekler.
 
-📁 3. ft_printf (Circle1)
+## 📁 3. ft_printf (Circle1)
 
 Amaç: Kısıtlı bir printf klonunu oluşturmak.
 
@@ -60,7 +62,7 @@ va_list ile argümanlar okunur.
 
 Karakter dizisi formatlanır ve yazdırılır.
 
-📁 4. born2beroot (Circle1)
+## 📁 4. born2beroot (Circle1)
 
 Amaç: Linux sistem yöneticiliği temellerini öğrenmek.
 
@@ -94,7 +96,7 @@ crontab ile günlük log arşivleme veya yedekleme görevleri
 
 Kontrol: Her adım için How2 dosyası veya bash script ile otomasyon.
 
-🚀 Kullanım & Test
+## 🚀 Kullanım & Test
 
 Tüm projelerde dizinlere gidip make komutunu çalıştırın.
 
