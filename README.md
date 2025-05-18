@@ -22,22 +22,28 @@ make
 
 ## 📁 2. get_next_line (Circle1)
 
-Amaç: Dosya veya standart girişi satır satır okumak.
+Goal: Read a file or input line by line.
 
-Dosyalar: get_next_line.c, get_next_line_utils.c, get_next_line.h
+Key function: char *get_next_line(int fd)
 
-Ana Fonksiyon: char *get_next_line(int fd)
+Reads into a buffer until \n, returns each line.
 
-Mantık:
-
-Buffer kullanarak belirli boyutlarda okuma.
-
-"\n" gördüğünde satırı geri döndürme.
-
-Birden çok fd için ayrı buffer tutulur.
-
-Test: Örnek .txt dosyalarıyla çalışan örnekler.
-
+**Build and test:**
+```
+git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
+```
+```
+cd repoo
+```
+```
+cd get_next_line
+```
+```
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c main.c -o gnl_test
+```
+```
+./gnl_test <file_name>
+```
 ## 📁 3. ft_printf (Circle1)
 
 Amaç: Kısıtlı bir printf klonunu oluşturmak.
