@@ -21,9 +21,9 @@ make
 ```
 
 ## 📁 2. get_next_line (circle1)
-
+> ###### *“Because fgets() was just too mainstream.”*
 **goal:** read a file or input line by line.
-> ###### *“Ancient coding rituals powered by malloc.”*
+
 -reads into a buffer until \n, returns each line.
 
 **build and test:**
@@ -44,9 +44,8 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
 ```
 
 ## 📁 3. ft_printf (circle1)
-
-**goal:** imitate the behaviour of printf function.
 > ###### *“It’s not full printf, but it tries.”*
+**goal:** imitate the behaviour of printf function.
 
 -supports %c, %s, %d, %u, %x, %p, and %%.
 
@@ -67,7 +66,7 @@ make
 ```
 
 ## 📁 4. born2beroot (circle1)
-
+> ###### *“Survival rate on this one is mental.”*
 **goal:** learn basic Linux administration on Ubuntu.
 
 **tasks:**
