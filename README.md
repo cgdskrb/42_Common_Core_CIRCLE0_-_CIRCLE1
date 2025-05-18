@@ -3,8 +3,9 @@
 ## 📁 1. libft (circle0)
 
 **goal:** recreate basic C library functions.
+> ###### *“Ancient coding rituals powered by malloc.”*
 
-implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit) etc.
+-implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit) etc.
 
 **build with:**
 ```
@@ -24,7 +25,7 @@ make
 
 **goal:** read a file or input line by line.
 
-reads into a buffer until \n, returns each line.
+-reads into a buffer until \n, returns each line.
 
 **build and test:**
 ```
@@ -46,12 +47,13 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
 ## 📁 3. ft_printf (circle1)
 
 **goal:** imitate the behaviour of printf function.
+> ###### *“It’s not full printf, but it tries.”*
 
-supports %c, %s, %d, %u, %x, %p, and %%.
+-supports %c, %s, %d, %u, %x, %p, and %%.
 
-handles width, precision, left/right alignment.
+-handles width, precision, left/right alignment.
 
-**build and run:**
+**build with:**
 ```
 git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
 ```
@@ -64,52 +66,26 @@ cd ft_printf
 ```
 make
 ```
-```
-enjoy my handicapped printf
-```
 
 ## 📁 4. born2beroot (circle1)
 
-**goal:** Linux sistem yöneticiliği temellerini öğrenmek.
+**goal:** learn basic Linux administration on Ubuntu.
 
-Kapsam: Ubuntu üzerinde:
+**tasks:**
 
-SSH ile root erişimi ve güvenlik ayarları
+-create users and set passwords
 
-Yeni kullanıcı ve izin yönetimi
+-configure SSH and sudo
 
-Paket yükleme (apt) ve temel servis yönetimi
+-install packages with apt
 
-FTP, Firewall (ufw) konfigürasyonu
+-set up firewall with ufw
 
-Cron ile zamanlanmış görevler
+-enable FTP 
 
-Adımlar:
+-schedule tasks with cron
 
-VM üzerinde Ubuntu kurulumu
-
-sudo yapılandırması ve SSH anahtar yönetimi
-
-useradd, passwd, usermod ile kullanıcı işlemleri
-
-apt install komutlarıyla gerekli araçların kurulumu
-
-ufw ile temel firewall kuralları oluşturma
-
-vsftpd ya da pure-ftpd ile FTP server kurulumu
-
-crontab ile günlük log arşivleme veya yedekleme görevleri
-
-Kontrol: Her adım için How2 dosyası veya bash script ile otomasyon.
-
-## 🚀 Kullanım & Test
-
-Tüm projelerde dizinlere gidip make komutunu çalıştırın.
-
-libft: make && make clean && make fclean
-
-get_next_line ve ft_printf: Örnek main dosyaları ile test edin.
-
-born2beroot: Adımları izleyerek VM üzerinde terminal komutlarını uygulayın.
+**follow the instructions on guide**
 
 
+## 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
