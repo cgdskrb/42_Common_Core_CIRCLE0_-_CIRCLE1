@@ -1,12 +1,12 @@
 # ECOLE 42 COMMON CORE CIRCLE0 - CIRCLE1 PROJECTS
 
-## 📁 1. libft (Circle0)
+## 📁 1. libft (circle0)
 
-Goal: Recreate basic C library functions.
+goal: recreate basic C library functions.
 
-Implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit).
+implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit).
 
-**Build with:**
+**build with:**
 ```
 git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
 ```
@@ -20,15 +20,13 @@ cd libft
 make
 ```
 
-## 📁 2. get_next_line (Circle1)
+## 📁 2. get_next_line (circle1)
 
-Goal: Read a file or input line by line.
+goal: read a file or input line by line.
 
-Key function: char *get_next_line(int fd)
+reads into a buffer until \n, returns each line.
 
-Reads into a buffer until \n, returns each line.
-
-**Build and test:**
+**build and test:**
 ```
 git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
 ```
@@ -44,27 +42,17 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
 ```
 ./gnl_test <file_name>
 ```
-## 📁 3. ft_printf (Circle1)
 
-Amaç: Kısıtlı bir printf klonunu oluşturmak.
+## 📁 3. ft_printf (circle1)
 
-Dosyalar: ft_printf.c, parser.c, handlers.c, utils.c, ft_printf.h
+goal: imitate the behaviour of printf function.
 
-Desteklenen Specifierlar: %c, %s, %d, %i, %u, %x, %X, %p, %%
+supports %c, %s, %d, %u, %x, %p, and %%.
 
-Özellikler:
+handles width, precision, left/right alignment.
 
-Alan genişliği ve precision
+**build and run:**
 
-Sol/sağ hizalama
-
-Çalışma Prensibi:
-
-Format string parse edilir.
-
-va_list ile argümanlar okunur.
-
-Karakter dizisi formatlanır ve yazdırılır.
 
 ## 📁 4. born2beroot (Circle1)
 
