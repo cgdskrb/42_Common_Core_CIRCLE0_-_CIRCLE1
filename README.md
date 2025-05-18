@@ -30,6 +30,7 @@ make
 <p align="left">
   <img src="https://i.imgflip.com/9uffmy.jpg" width="400" alt="zz">
 </p>
+
 **goal:** read a file or input line by line.
 
 -reads into a buffer until \n, returns each line.
@@ -56,6 +57,7 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
 <p align="left">
   <img src="https://www.netmeister.org/blog/images/spoon.jpg" width="400" alt="zz">
 </p>
+
 **goal:** imitate the behaviour of printf function.
 
 -supports %c, %s, %d, %u, %x, %p, and %%.
@@ -78,6 +80,10 @@ make
 
 ## 📁 4. born2beroot (circle1)
 > ###### *“Survival rate on this one is mental.”*
+<p align="left">
+  <img src="https://i.imgflip.com/9ufgun.jpg" width="400" alt="zz">
+</p>
+
 **goal:** learn basic Linux administration on Ubuntu.
 
 **tasks:**
