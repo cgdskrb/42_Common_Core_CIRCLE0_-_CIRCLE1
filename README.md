@@ -1,8 +1,11 @@
 # ECOLE 42 COMMON CORE CIRCLE0 - CIRCLE1 PROJECTS
 
 ## 📁 1. libft (circle0)
-!(https://i.imgflip.com/9ufdto.jpg)
 > ###### *“Ancient coding rituals powered by malloc.”*
+<p align="left">
+  <img src="https://i.imgflip.com/9ufdto.jpg" width="400" alt="Diagram explanation">
+</p>
+
 **goal:** recreate basic C library functions.
 
 -implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit) etc.
