@@ -21,7 +21,7 @@ make
 ```
 
 ## 📁 2. get_next_line (circle1)
-> ###### *“Because fgets() was just too mainstream.”*
+> ###### *“Because normal I/O is boring.”*
 **goal:** read a file or input line by line.
 
 -reads into a buffer until \n, returns each line.
