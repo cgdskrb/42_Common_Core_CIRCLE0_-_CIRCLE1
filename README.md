@@ -82,7 +82,15 @@ make
 -enable FTP 
 
 -schedule tasks with cron
-
+```
+git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
+```
+```
+cd repoo
+```
+```
+cd born2beroot
+```
 **follow the instructions on guide**
 
 
