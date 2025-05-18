@@ -1,9 +1,8 @@
 # ECOLE 42 COMMON CORE CIRCLE0 - CIRCLE1 PROJECTS
 
 ## 📁 1. libft (circle0)
-
-**goal:** recreate basic C library functions.
 > ###### *“Ancient coding rituals powered by malloc.”*
+**goal:** recreate basic C library functions.
 
 -implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit) etc.
 
@@ -24,7 +23,7 @@ make
 ## 📁 2. get_next_line (circle1)
 
 **goal:** read a file or input line by line.
-
+> ###### *“Ancient coding rituals powered by malloc.”*
 -reads into a buffer until \n, returns each line.
 
 **build and test:**
