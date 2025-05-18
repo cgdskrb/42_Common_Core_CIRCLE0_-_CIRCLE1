@@ -3,7 +3,7 @@
 ## 📁 1. libft (circle0)
 > ###### *“Ancient coding rituals powered by malloc.”*
 <p align="left">
-  <img src="https://i.imgflip.com/9ufdto.jpg" width="400" alt="Diagram explanation">
+  <img src="https://i.imgflip.com/9ufdto.jpg" width="400" alt="zz">
 </p>
 
 **goal:** recreate basic C library functions.
@@ -26,6 +26,10 @@ make
 
 ## 📁 2. get_next_line (circle1)
 > ###### *“Because normal I/O is boring.”*
+
+<p align="left">
+  <img src="https://i.imgflip.com/9uffmy.jpg" width="400" alt="zz">
+</p>
 **goal:** read a file or input line by line.
 
 -reads into a buffer until \n, returns each line.
@@ -49,6 +53,9 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
 
 ## 📁 3. ft_printf (circle1)
 > ###### *“It’s not full printf, but it tries.”*
+<p align="left">
+  <img src="https://www.netmeister.org/blog/images/spoon.jpg" width="400" alt="zz">
+</p>
 **goal:** imitate the behaviour of printf function.
 
 -supports %c, %s, %d, %u, %x, %p, and %%.
