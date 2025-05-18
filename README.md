@@ -1,6 +1,7 @@
 # ECOLE 42 COMMON CORE CIRCLE0 - CIRCLE1 PROJECTS
 
 ## 📁 1. libft (circle0)
+!(https://i.imgflip.com/9ufdto.jpg)
 > ###### *“Ancient coding rituals powered by malloc.”*
 **goal:** recreate basic C library functions.
 
