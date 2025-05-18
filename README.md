@@ -2,25 +2,23 @@
 
 ## 📁 1. libft (Circle0)
 
-Amaç: Standart C kütüphanesinin temel fonksiyonlarını yeniden implemente etmek.
+Goal: Recreate basic C library functions.
 
-İçerik: ft_*.c dosyaları; string, bellek ve karakter işlemleri fonksiyonları.
+Implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit).
 
-Önemli Fonksiyonlar:
-
-ft_strlen, ft_strcpy, ft_strchr
-
-ft_memset, ft_memcpy, ft_memmove
-
-ft_atoi, ft_isalpha, ft_isdigit
-
-Nasıl Çalışır:
-
-Fonksiyonlar standart C davranışını taklit eder.
-
-make ile libft.a statik kütüphanesi oluşturulur.
-
-Diğer projeler bu kütüphaneyi include edip linkler.
+**Build with:**
+```
+git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
+```
+```
+cd repoo
+```
+```
+cd libft
+```
+```
+make
+```
 
 ## 📁 2. get_next_line (Circle1)
 
