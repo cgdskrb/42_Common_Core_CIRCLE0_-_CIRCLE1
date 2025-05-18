@@ -2,9 +2,9 @@
 
 ## 📁 1. libft (circle0)
 
-goal: recreate basic C library functions.
+**goal:** recreate basic C library functions.
 
-implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit).
+implements string (ft_strlen, ft_strcpy), memory (ft_memset, ft_memcpy), and character checks (ft_isalpha, ft_isdigit) etc.
 
 **build with:**
 ```
@@ -22,7 +22,7 @@ make
 
 ## 📁 2. get_next_line (circle1)
 
-goal: read a file or input line by line.
+**goal:** read a file or input line by line.
 
 reads into a buffer until \n, returns each line.
 
@@ -45,18 +45,32 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
 
 ## 📁 3. ft_printf (circle1)
 
-goal: imitate the behaviour of printf function.
+**goal:** imitate the behaviour of printf function.
 
 supports %c, %s, %d, %u, %x, %p, and %%.
 
 handles width, precision, left/right alignment.
 
 **build and run:**
+```
+git clone https://github.com/cgdskrb/42_Common_Core_CIRCLE0_-_CIRCLE1.git repoo
+```
+```
+cd repoo
+```
+```
+cd ft_printf
+```
+```
+make
+```
+```
+enjoy my handicapped printf
+```
 
+## 📁 4. born2beroot (circle1)
 
-## 📁 4. born2beroot (Circle1)
-
-Amaç: Linux sistem yöneticiliği temellerini öğrenmek.
+**goal:** Linux sistem yöneticiliği temellerini öğrenmek.
 
 Kapsam: Ubuntu üzerinde:
 
